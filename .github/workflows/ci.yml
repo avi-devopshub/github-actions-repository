@@ -15,3 +15,9 @@ jobs:
 
       - name: Test
         run: echo "Testing Application"
+      
+      - name: Check files
+        run: ls
+
+      - name: Check current directory
+        run: pwd
