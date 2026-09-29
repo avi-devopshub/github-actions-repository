@@ -21,3 +21,6 @@ jobs:
 
       - name: Check current directory
         run: pwd
+
+      - name: Check Git status
+        run: git status
